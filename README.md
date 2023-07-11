@@ -2,7 +2,7 @@
 
 Add the script tag to the `<head>` of your page
 ```html
-<script src="https://embed-unicorn-studio.vercel.app/unicornStudio.umd.js"></script>
+<script src="https://cdn.unicorn.studio/unicornStudio.umd.js"></script>
 ```
 
 Initialize your scene:
