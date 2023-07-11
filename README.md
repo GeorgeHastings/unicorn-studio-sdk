@@ -10,10 +10,11 @@ Initialize your scene:
 <div class="unicorn-embed" id="unicorn"></div>
 <script>
   UnicornStudio.init({
-    elementId: 'unicorn',
-    fps: 60,
-    scale: 1,
-    projectId: 'YOUR_PROJECT_EMBED_ID'
+    elementId: 'unicorn', // id of the HTML element to render your scene in (the scene will use its dimensions)
+    fps: 60, // frames per second (0-120)
+    scale: 1, // rendering scale, use smaller values for performance boost (0-1)
+    dpi: 1 // pixel ratio
+    projectId: 'YOUR_PROJECT_EMBED_ID' // the id string for your embed (get this from "embed" export)
   }).then(() => {
     // Scene is ready
   }).catch((err) => {
