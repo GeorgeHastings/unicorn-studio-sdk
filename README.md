@@ -1,6 +1,12 @@
 # unicorn-studio-sdk
 
+Add the script tag to the <head> of your page
+```html
+<script src="https://embed-unicorn-studio.vercel.app/unicornStudio.umd.js"></script>
 ```
+
+Initialize your scene:
+```javascript
 <div class="unicorn-embed" id="unicorn"></div>
 <script>
   UnicornStudio.init({
