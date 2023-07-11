@@ -7,7 +7,7 @@
     elementId: 'unicorn',
     fps: 60,
     scale: 1,
-    projectId: 'YOUR_VERSION_ID'
+    projectId: 'YOUR_PROJECT_EMBED_ID'
   }).then(() => {
     // Scene is ready
   }).catch((err) => {
