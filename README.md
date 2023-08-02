@@ -1,11 +1,19 @@
 # Embed your Unicorn Studio projects
 
+## Include the script
+
 Add the script tag to the `<head>` of your page
 ```html
 <script src="https://cdn.unicorn.studio/unicornStudio.umd.js"></script>
 ```
 
-Initialize your scene:
+or import into your component
+```js
+import * as UnicornStudio from './path/to/unicornStudio.umd.js'
+```
+
+## Initialize your scene:
+
 ```html
 <div class="unicorn-embed" id="unicorn"></div>
 <script>
@@ -22,3 +30,5 @@ Initialize your scene:
   });
 </script>
 ```
+
+Live example: https://codepen.io/georgehastings/pen/ZEmqPGb
