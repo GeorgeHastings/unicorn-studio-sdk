@@ -1,4 +1,4 @@
-# unicorn-studio-sdk
+# Embed your Unicorn Studio projects
 
 Add the script tag to the `<head>` of your page
 ```html
