@@ -21,8 +21,11 @@ import * as UnicornStudio from './path/to/unicornStudio.umd.js'
     elementId: 'unicorn', // id of the HTML element to render your scene in (the scene will use its dimensions)
     fps: 60, // frames per second (0-120)
     scale: 1, // rendering scale, use smaller values for performance boost (0-1)
-    dpi: 1 // pixel ratio
-    projectId: 'YOUR_PROJECT_EMBED_ID' // the id string for your embed (get this from "embed" export)
+    dpi: 1, // pixel ratio
+    projectId: 'YOUR_PROJECT_EMBED_ID', // the id string for your embed (get this from "embed" export)
+    interactivity: { // optional
+      disableMobile: true // disable mouse/touch movement on mobile
+    }
   }).then(() => {
     // Scene is ready
   }).catch((err) => {
