@@ -24,7 +24,7 @@ import * as UnicornStudio from './path/to/unicornStudio.umd.js'
     dpi: 1, // pixel ratio
     projectId: 'YOUR_PROJECT_EMBED_ID', // the id string for your embed (get this from "embed" export)
     interactivity: { // optional
-      disableMobile: true // disable mouse/touch movement on mobile
+      disableMobile: true // disable touch movement on mobile
     }
   }).then(() => {
     // Scene is ready
