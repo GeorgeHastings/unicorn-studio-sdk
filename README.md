@@ -25,11 +25,11 @@ import * as UnicornStudio from './path/to/unicornStudio.umd.js'
     projectId: 'YOUR_PROJECT_EMBED_ID', // the id string for your embed (get this from "embed" export)
     interactivity: { // [optional]
       mouse: {
-        disableMobile: true // disable touch movement on mobile
+        disableMobile: true, // disable touch movement on mobile
         momentum: 1.1 // mouse movement momentum
       },
       scroll: {
-        disableMobile: true // disable scroll effects on mobile
+        disableMobile: true, // disable scroll effects on mobile
         momentum: 1.1 // scroll momentum
       }
     }
