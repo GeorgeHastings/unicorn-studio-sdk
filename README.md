@@ -40,5 +40,6 @@ import * as UnicornStudio from './path/to/unicornStudio.umd.js'
   });
 </script>
 ```
+Any values set in the UI will be overridden by values defined in the optional params. 
 
 Live example: https://codepen.io/georgehastings/pen/ZEmqPGb
