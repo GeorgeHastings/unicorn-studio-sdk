@@ -17,7 +17,7 @@ import * as UnicornStudio from './path/to/unicornStudio.umd.js'
 ```html
 <div class="unicorn-embed" id="unicorn"></div>
 <script>
-  UnicornStudio.init({
+  UnicornStudio.addScene({
     elementId: 'unicorn', // id of the HTML element to render your scene in (the scene will use its dimensions)
     fps: 60, // frames per second (0-120) [optional]
     scale: 1, // rendering scale, use smaller values for performance boost (0.25-1) [optional]
