@@ -9,7 +9,7 @@ Add the script tag to the `<head>` of your page
 
 or import into your component
 ```js
-import { UnicornStudio } from './path/to/unicornStudio.umd.js'
+import * as UnicornStudio from './path/to/unicornStudio.umd.js'
 ```
 
 ## Initialize your scene:
