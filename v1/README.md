@@ -9,7 +9,7 @@ Add the script tag to the `<head>` of your page
 
 or import into your component
 ```js
-import * as UnicornStudio from './path/to/unicornStudio.umd.js'
+import { UnicornStudio } from './path/to/unicornStudio.umd.js'
 ```
 
 ## Initialize your scene:
@@ -43,4 +43,4 @@ import * as UnicornStudio from './path/to/unicornStudio.umd.js'
 Any values set in the UI will be overridden by values defined in the optional params. 
 
 ## Live example
-https://codepen.io/georgehastings/pen/ZEmqPGb
+https://codepen.io/georgehastings/pen/ExGrqMJ
