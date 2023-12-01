@@ -4,7 +4,7 @@
 
 Add the script tag to the `<head>` of your page
 ```html
-<script src="https://cdn.unicorn.studio/v1.0.0/unicornStudio.umd.js"></script>
+<script src="https://cdn.unicorn.studio/v1.1.0/unicornStudio.umd.js"></script>
 ```
 
 or import into your component
@@ -14,6 +14,24 @@ import * as UnicornStudio from './path/to/unicornStudio.umd.js'
 
 ## Initialize your scene:
 
+###Inline
+Any element with `data-us-project` will get initialized by calling `UnicornStudio.init()`.
+```html
+<div class="unicorn-embed"
+  data-us-project="YOUR_PROJECT_EMBED_ID"
+  data-us-scale="1"
+  data-us-dpi="1.5"
+></div>
+<script>
+  UnicornStudio.init().then(scenes => {
+    // Scenes are ready
+  }).catch((err) => {
+    console.error(err);
+  });
+</script>
+```
+###Dynamically
+You can add a scene dynamically during or after pageload. 
 ```html
 <div class="unicorn-embed" id="unicorn"></div>
 <script>
